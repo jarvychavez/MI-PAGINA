@@ -1,5 +1,8 @@
 
-
+body{
+    background-color:yellow ;
+    color: black;
+}
 
 
 
@@ -8,4 +11,5 @@
 .imagen{
     width: 150px;
     height: 200px;
+    color: yellow;
 }
