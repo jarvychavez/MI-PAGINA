@@ -1,15 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
 
 body{
-    background-color:yellow ;
-    color: black;
+    background-color: #000000;
+    color:  #F6F6F6;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.imagen{
+    width: 300px;
+    height: 400px;
+    background-color: #76a8d1;
+    
+}
+
+.presentacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 21%;
+
+}
+
+.presentacion__contenido{
+    width: 615px;
+}
+
+.javier_alberto{
+    color:#d1af76
+}
+
+.mi__presentacion{
+    color:#e8525d
 }
 
 
+.parrafo__1{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
 
-
-
-.imagen{
-    width: 150px;
-    height: 200px;
-    color: yellow;
+.parrafo__2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
 }
