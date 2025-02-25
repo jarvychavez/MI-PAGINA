@@ -77,13 +77,16 @@ body{
 }
 
 .presentacion__link{
-    width: 80px;
+    width: 120px;
     text-align: center;
     padding: 7.5px 0;
-    border-radius: 2px;
+    border-radius: 10px;
     font-weight: 600px;
     text-decoration: none;
     color: #F6F6F6;
-    border: 2px solid #76a8d1
+    border: 2px solid #76a8d1;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     
 }
