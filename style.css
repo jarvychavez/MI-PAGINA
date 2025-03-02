@@ -23,7 +23,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10%;
+    padding: 5% 10%;
 
 }
 
@@ -86,8 +86,7 @@ body{
     border: 2px solid #76a8d1;
     display: flex;
     justify-content: center;
-    gap: 10px;
-    
+    gap: 10px;  
 }
 
 
@@ -113,7 +112,7 @@ body{
 }
 
 .header{
-    padding: 8% 15%;
+    padding: 5% 9%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -124,10 +123,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 80px;
 }
 
 .header__menu__link{
     padding: 10px 15px;
+    color: #76a8d1;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 
