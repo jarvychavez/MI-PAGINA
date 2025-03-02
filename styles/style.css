@@ -106,7 +106,7 @@ body{
 }
 
 .header:hover{
-    background-color: #272727;
+    background-color: none;
     cursor: pointer;
 
 }
@@ -132,6 +132,8 @@ body{
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
     font-weight: 600;
+    text-decoration: none;
+
 }
 
 
