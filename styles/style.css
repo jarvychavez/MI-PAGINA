@@ -150,4 +150,7 @@ body{
     font-family: "Krona One", sans-serif;
   }
 
-
+.presentacion__contenido__texto a{
+    text-decoration: none;
+    color: #22D4FD;
+}
