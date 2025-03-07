@@ -36,6 +36,18 @@ body{
     
 }
 
+
+.imagen_certificado{
+    width: 600px;
+    height: 800px;
+    background-color: var(--color--terciario);
+
+
+
+
+}
+
+
 .presentacion{
     display: flex;
     align-items: center;
