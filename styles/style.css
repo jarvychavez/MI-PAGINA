@@ -180,3 +180,10 @@ body{
     text-decoration: none;
     color: var(--color--destaque);
 }
+
+@media (max-width: 1200px){
+
+    .presentacion{
+        flex-direction: column-reverse;
+    }
+}
