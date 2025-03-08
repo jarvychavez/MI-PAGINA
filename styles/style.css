@@ -30,7 +30,7 @@ body{
 }
 
 .imagen{
-    width: 550px;
+    width: 50%;
     height: 600px;
     background-color: var(--color--terciario);
     
@@ -38,7 +38,7 @@ body{
 
 
 .imagen_certificado{
-    width: 600px;
+    width: 50%;
     height: 800px;
     background-color: var(--color--terciario);
 }
@@ -49,11 +49,12 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 5% 10%;
+    gap: 84px;
 
 }
 
 .presentacion__contenido{
-    width: 615px;
+    width: 50%;
     display:flex;
     flex-direction: column;
     gap: 28px;
@@ -101,7 +102,7 @@ body{
 }
 
 .presentacion__link{
-    width: 120px;
+    width: 50%;
     text-align: center;
     padding: 7.5px 0;
     border-radius: 10px;
