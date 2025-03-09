@@ -30,8 +30,12 @@ body{
 }
 
 .imagen{
-    width: 50%;
-    height: 600px;
+    width: 60%;
+    height: auto;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
     background-color: var(--color--terciario);
     
 }
@@ -39,7 +43,9 @@ body{
 
 .imagen_certificado{
     width: 50%;
-    height: 800px;
+    height: 100%;
+    display: block;
+    margin: auto;
     background-color: var(--color--terciario);
 }
 
@@ -102,7 +108,7 @@ body{
 }
 
 .presentacion__link{
-    width: 50%;
+    width: 75%;
     text-align: center;
     padding: 7.5px 0;
     border-radius: 10px;
@@ -181,9 +187,10 @@ body{
     color: var(--color--destaque);
 }
 
-@media (max-width: 1200px){
+@media (max-width: 768px){
 
     .presentacion{
         flex-direction: column-reverse;
+        max-width: 80%;
     }
 }
