@@ -182,15 +182,22 @@ body{
 
     .header{
         padding: 10px;
+        justify-content: center;
     }
 
     .header__menu{
         justify-content: center;
+        gap: 18px;
     }
 
     
 
     .presentacion{
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .presentacion__contenido{
+        width: auto;
     }
 }
