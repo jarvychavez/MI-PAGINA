@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Grechen+Fuemen&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 :root{
@@ -14,7 +15,7 @@
     --fuente--grechen: "Grechen Fuemen", serif;
     --fuente--montserrat: "Montserrat", sans-serif;
     --fuente--krona: "Krona One", sans-serif;
-
+    --fuente--cormorat: "Cormorant", serif;
 
 
 }
@@ -70,7 +71,7 @@ body{
 
 .mi__presentacion{
     color: var(--color--presentacion);
-    font-family: var(--fuente--montserrat);
+    font-family: var(--fuente--cormorat);
     font-weight: 400;
     font-style: normal;
 
@@ -129,7 +130,7 @@ body{
     background-color: var(--color--terciario);
     color: var(--color--primario);
     text-align: center;
-    font-family: var(--fuente--montserrat);
+    font-family: var(--fuente--cormorat);
     padding: 24px;
     font-size: 3.125rem;
     font-weight: 400;
