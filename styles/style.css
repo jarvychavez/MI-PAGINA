@@ -3,12 +3,13 @@
 
 
 :root{
-    --color--primario:#000000;
-    --color--secundario: #F6F6F6;
-    --color--jarvy:#d1af76;
-    --color--presentacion:#e8525d;
-    --color--terciario:#76a8d1;
-    --color--destaque: #22D4FD;
+    --color--primario:#F8F0E5;
+    --color--secundario: #132043;
+    --color--jarvy:#000000;
+    --color--presentacion: #4F709C;
+    --color--terciario:#213555;
+    --color--destaque: #2146C7;
+    --color--redes: #102C57;
 
     --fuente--grechen: "Grechen Fuemen", serif;
     --fuente--montserrat: "Montserrat", sans-serif;
@@ -34,6 +35,8 @@ body{
     height: auto;
     max-width: 800px;
     background-color: var(--color--terciario);
+    border-radius: 50%;
+    object-fit: cover;
     
 }
 
@@ -67,7 +70,7 @@ body{
 
 .mi__presentacion{
     color: var(--color--presentacion);
-    font-family: var(--fuente--grechen);
+    font-family: var(--fuente--montserrat);
     font-weight: 400;
     font-style: normal;
 
@@ -99,7 +102,7 @@ body{
     font-family: var(--fuente--krona);
     font-size: 1.5rem;
     font-weight: 400;
-    color: aqua;
+    color: var(--color--redes);
 }
 
 .presentacion__link{
@@ -126,7 +129,7 @@ body{
     background-color: var(--color--terciario);
     color: var(--color--primario);
     text-align: center;
-    font-family: var(--fuente--grechen);
+    font-family: var(--fuente--montserrat);
     padding: 24px;
     font-size: 3.75rem;
     font-weight: 400;
