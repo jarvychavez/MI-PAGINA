@@ -154,7 +154,7 @@ body{
 }
 
 .header__menu__link{
-    padding: 10px 15px;
+    padding: 3px 7px;
     color: var(--color--terciario);
     font-family: var(--fuente--montserrat);
     font-size: 1.5625rem;
